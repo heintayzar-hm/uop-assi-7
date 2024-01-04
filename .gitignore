@@ -12,6 +12,7 @@ target/
 *.iml
 *.ipr
 *.txt
+text.txt
 
 **/src/main/*.txt
 ### Eclipse ###

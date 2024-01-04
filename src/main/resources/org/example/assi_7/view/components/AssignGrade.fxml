@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.assi_7.controllers.AssignGradeController">
+    <children>
+        <AnchorPane layoutX="96.0" layoutY="35.0" prefHeight="329.0" prefWidth="387.0">
+            <children>
+                <AnchorPane layoutX="27.0" layoutY="34.0" prefHeight="53.0" prefWidth="340.0">
+                    <children>
+                        <Label layoutX="14.0" layoutY="18.0" prefHeight="21.0" prefWidth="102.0" text="Student Name:" />
+                        <AnchorPane layoutX="117.0" layoutY="12.0" prefHeight="32.0" prefWidth="200.0">
+                            <children>
+                                <Label fx:id="studentNameLabel" layoutY="8.0" prefHeight="17.0" prefWidth="200.0" />
+                            </children></AnchorPane>
+                    </children>
+                </AnchorPane>
+                <Button layoutX="298.0" layoutY="291.0" mnemonicParsing="false" onAction="#assignGrade" text="Assign" />
+                <AnchorPane layoutX="32.0" layoutY="111.0" prefHeight="53.0" prefWidth="340.0">
+                    <children>
+                        <Label layoutX="14.0" layoutY="18.0" prefHeight="22.0" prefWidth="130.0" text="Available Courses:" />
+                        <AnchorPane layoutX="140.0" layoutY="10.0" prefHeight="32.0" prefWidth="200.0">
+                            <children>
+                                <ComboBox fx:id="dropDownCourses" layoutX="35.0" layoutY="10.0" prefWidth="150.0" />
+                            </children>
+                        </AnchorPane>
+                    </children>
+                </AnchorPane>
+            <AnchorPane layoutX="27.0" layoutY="178.0" prefHeight="53.0" prefWidth="340.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="18.0" prefHeight="22.0" prefWidth="130.0" text="Assign Grade" />
+                  <AnchorPane layoutX="140.0" layoutY="10.0" prefHeight="32.0" prefWidth="200.0">
+                     <children>
+                        <TextField fx:id="grade" layoutX="15.0" layoutY="7.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Label layoutX="33.0" layoutY="234.0" prefHeight="45.0" prefWidth="324.0" textFill="RED" wrapText="true" fx:id="errorLabel" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

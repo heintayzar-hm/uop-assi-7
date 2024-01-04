@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.assi_7.controllers.ViewStudentController">
+    <children>
+        <AnchorPane layoutX="96.0" layoutY="35.0" prefHeight="329.0" prefWidth="387.0">
+            <children>
+                <AnchorPane layoutX="27.0" layoutY="34.0" prefHeight="53.0" prefWidth="340.0">
+                    <children>
+                        <Label layoutX="14.0" layoutY="18.0" prefHeight="21.0" prefWidth="102.0" text="Student Name:" />
+                  <AnchorPane layoutX="117.0" layoutY="12.0" prefHeight="32.0" prefWidth="200.0">
+                     <children>
+                        <Label fx:id="studentNameLabel" layoutY="8.0" prefHeight="17.0" prefWidth="200.0" />
+                     </children></AnchorPane>
+                    </children>
+                </AnchorPane>
+                <Button layoutX="14.0" layoutY="291.0" mnemonicParsing="false" onAction="#enrollStudent" text="Enroll in New Courses" />
+            <AnchorPane layoutX="27.0" layoutY="99.0" prefHeight="53.0" prefWidth="340.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="18.0" prefHeight="21.0" prefWidth="210.0" text="Student Enrolled Courses:" />
+                  <AnchorPane layoutX="117.0" layoutY="12.0" prefHeight="32.0" prefWidth="200.0" />
+               </children>
+            </AnchorPane>
+            <VBox fx:id="showEnrolledCourses" layoutX="38.0" layoutY="152.0" prefHeight="122.0" prefWidth="319.0" />
+            <Button layoutX="210.0" layoutY="291.0" mnemonicParsing="false" onAction="#assignGrade" text="Assign Grade " />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

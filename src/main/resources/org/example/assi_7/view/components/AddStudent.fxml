@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.assi_7.controllers.AddStudentController">
+   <children>
+      <AnchorPane layoutX="96.0" layoutY="35.0" prefHeight="329.0" prefWidth="387.0">
+         <children>
+            <AnchorPane layoutX="27.0" layoutY="34.0" prefHeight="77.0" prefWidth="336.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="18.0" prefHeight="19.0" prefWidth="103.0" text="Student Name:" />
+                  <TextField fx:id="studentNameTextField" layoutX="151.0" layoutY="16.0" AnchorPane.bottomAnchor="37.0" />
+               </children>
+            </AnchorPane>
+            <Label fx:id="studentNameErrorLabel" layoutX="37.0" layoutY="97.0" prefHeight="77.0" prefWidth="317.0" textAlignment="CENTER" wrapText="true" />
+            <Button layoutX="310.0" layoutY="181.0" mnemonicParsing="false" onAction="#addStudent" text="Add" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

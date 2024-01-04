@@ -1,0 +1,50 @@
+/* styles.css */
+.primary-color {
+    -fx-background-color: #343541;
+    -fx-text-fill: white;
+}
+
+.secondary-color {
+    -fx-background-color: #262626;
+    -fx-text-fill: white;
+}
+
+.third-color {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: white;
+}
+
+.fourth-color {
+    -fx-background-color: #e373ff;
+    -fx-text-fill: white;
+}
+
+.icon-button{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.secondary-button{
+    -fx-background-color: black;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: gray;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.action-button{
+    -fx-background-color: #e373ff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: gray;
+    -fx-border-width: 1;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
